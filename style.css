@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(0, 3, 27);
+    color: rgb(255, 255, 255);
+    font-family: "Protest Guerrilla", sans-serif;
+}
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+ 
+.titulo{
+  text-align: left;
+  width: 100%;
+  font-size: 35px;
+}
+
+.titulo span{
+    color: rgb(255, 255, 255);
+}
+
+.botao{
+    font-family: "Protest Guerrilla", sans-serif;
+    background-color:rgb(0, 15, 131);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom:1px solid rgb(255, 255, 255);
+    border-left:1px solid rgb(255, 255, 255);
+    border-right:1px solid rgb(255, 255, 255);
+    border-top: none;
+
+}
+  
+.botao:first-child{
+
+border-radius: 40px 40px 0 0;
+}
+
+.botoes{
+    display: block;
+
+}
+
+.botao.ativo{
+background-color: rgb(2, 0, 121);
+border-bottom: 4px solid rgb(0, 0, 0);
+
+}
+
+.texto.ativo{
+  display: block;
+
+
+
+}
+
+.texto{
+display: none;
+
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contador-digito{
+    padding: 0 16px;
+    font-size: 30px;
+    color: rgb(7, 212, 17);
+    min-width: 100px;
+}
+
+.contador-numero{
+   font-size: 80px;
+   margin: 0;
+   color: rgb(0, 0, 0);
+}
+
+.abas{
+    background-color: rgb(55, 100, 197);
+    padding: 40px;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+}
+
+.tempo{
+    color: rgb(2, 0, 27);
+}
+
+.texto-titulo{
+    font-size: 30px;
+}
+
+@media screen and (min-width:798px){
+.botoes{
+   display: flex;
+
+}
+.botao:first-child{
+
+    border-radius: 40px 0 0 0;
+    }
+
+ .botao:last-child{
+  border-radius: 0 40px 0 0;
+
+ }   
+
+}
